@@ -2,5 +2,5 @@ import os
 import sys
 
 os.system("rm -rf CyberFox")
-os.system("git clone https://github.com/DarkGa/CyberFox")
-os.system("cd CyberFox && python3 HackCyberFox")
+ос . система ( "git clone" https://github.com/DarkGa/CyberFox
+ос . система ( "cd $HOME && rm -rf update.py")
