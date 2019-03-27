@@ -24,8 +24,8 @@ time.sleep(3)
 if update == False:
 	print("Updating")
 	time.sleep(3)
-	os.syste("cd $HOME")
-	os.syste("rm -rd CyberFox")
+	os.system("cd $HOME")
+	os.system("rm -rd CyberFox")
 	
 	os.system("git clone https://github.com/DarkGa/CyberFox.git ")
 	
