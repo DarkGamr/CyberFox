@@ -24,15 +24,13 @@ time.sleep(3)
 if update == False:
 	print("Updating")
 	time.sleep(3)
-	os.system("cd")
-	os.system("mkdir QiwiHack")
-	os.system("cd QiwiHack")
+	os.syste("cd $HOME")
+	os.syste("rm -rd CyberFox")
+	
 	os.system("git clone https://github.com/DarkGa/CyberFox.git ")
-	os.system("cd")
+	
 	os.system("rm -rf CyberFox")
-	os.system("mkdir CyberFox")
-	os.system("cp -r QiwiHack/. CyberFox")
-	os.system("rm -rf QiwiHack")
+	
 	print("Update Ok")
 	print("run CyberFox!")
 	time.sleep(3)
