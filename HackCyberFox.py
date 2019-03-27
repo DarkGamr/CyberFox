@@ -26,9 +26,7 @@ if update == False:
 	time.sleep(3)
 	os.system("cp update.py $HOME")
 	
-	os.system("cd $HOME")
-	
-	os.system("python3 update.py")
+	os.system("cd $HOME && python3 update.py")
 	
 	print("run CyberFox!")
 	time.sleep(3)
