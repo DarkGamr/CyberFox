@@ -24,14 +24,12 @@ time.sleep(3)
 if update == False:
 	print("Updating")
 	time.sleep(3)
+	os.system("cp update.py $HOME")
+	
 	os.system("cd $HOME")
-	os.system("rm -rd CyberFox")
 	
-	os.system("git clone https://github.com/DarkGa/CyberFox.git ")
+	os.system("python3 update.py")
 	
-	os.system("rm -rf CyberFox")
-	
-	print("Update Ok")
 	print("run CyberFox!")
 	time.sleep(3)
 
