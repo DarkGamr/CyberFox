@@ -47,7 +47,17 @@ print('')
 print('')
 time.sleep(5)
 
-print(colored("hacker by DarkGamer, official group: CyberFox, help-- show optinals", 'blue'))
+print(colored("==hacker by DarkGamer, official group: CyberFox", 'green'))
+print(colored("|", 'blue'))
+print(colored("==version 0.7", 'green'))
+print("")
+print("")
+print("")
+print("")
+print("")
+print("")
+      
+
 
 text = input(colored('kbf> ', 'red'))
 I ="use cheker"
@@ -56,7 +66,11 @@ G ="show optinals"
 
 if text == G:
 	
-	print(colored("1: balans cheker, command: use cheker; 2: hack, commands: use hack",  'red'))
+	print(colored("=modules:",  'green'))
+	print(colored("|", 'blue'))
+	print(colored("=use hack — hack money QIWI", 'red'))
+	print(colored("|", 'blue'))
+	print(colored("=use checker — chek money to QIVI", 'red'))
 	
 	text = input(colored('kbf> ', 'red'))
 	
@@ -64,9 +78,9 @@ if text == I:
 	
 	time.sleep(5)
 
-	token=input(colored('cheker modules>>set token: ', 'blue'))
+	token=input(colored('cheker modules>>', 'red' + 'set token: ', 'blue'))
 
-	phone=input(colored('cheker modules>>set phone hack: ', 'blue'));
+	phone=input(colored('cheker modules>>', 'red' + 'set phone hack: ', 'blue'));
 
 	api = QApi(token=token, phone=phone)
 
@@ -82,9 +96,9 @@ elif text == T:
 	
 	time.sleep(5)
 
-	token=input(colored('hack modules>>set token: ', 'blue'))
+	token=input(colored('hack modules>>', 'red' + 'set token: ', 'blue'))
 
-	phone=input(colored('hack modules>>set phone hack: ', 'blue'));
+	phone=input(colored('hack modules>>', 'red' + 'set phone hack: ', 'blue'));
 
 	api = QApi(token=token, phone=phone)
 
