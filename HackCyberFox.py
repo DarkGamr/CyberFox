@@ -49,7 +49,7 @@ time.sleep(5)
 
 print(colored("==hacker by DarkGamer, official group: CyberFox", 'green'))
 print(colored("|", 'blue'))
-print(colored("==version 0.8", 'green'))
+print(colored("==version 0.9", 'green'))
 print("")
 print("")
 print("")
@@ -78,9 +78,9 @@ if text == I:
 	
 	time.sleep(5)
 
-	token=input(colored('cheker modules>>', 'red') + (colored('set token: ', 'blue')))
+	token=input(colored('cheker modules>>', 'red') + colored('set token: ', 'blue'))
 
-	phone=input(colored('cheker modules>>', 'red') + (colored('set phone hack: ', 'blue')));
+	phone=input(colored('cheker modules>>', 'red') + colored('set phone hack: ', 'blue'));
 
 	api = QApi(token=token, phone=phone)
 
