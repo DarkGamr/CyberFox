@@ -71,6 +71,9 @@ if text == G:
 	print(colored("=  use hack — hack money QIWI", 'red'))
 	print(colored("|", 'blue'))
 	print(colored("=  use checker — chek money to QIVI", 'red'))
+	print('')
+	print('')
+	print('')
 	
 	text = input(colored('kbf> ', 'red'))
 	
@@ -78,9 +81,9 @@ if text == I:
 	
 	time.sleep(5)
 
-	token=input(colored('cheker modules>>', 'red') + colored('set token: ', 'blue'))
+	token=input(colored('[cheker modules]>>', 'red') + colored('set token: ', 'blue'))
 
-	phone=input(colored('cheker modules>>', 'red') + colored('set phone hack: ', 'blue'));
+	phone=input(colored('[cheker modules]>>', 'red') + colored('set phone hack: ', 'blue'));
 
 	api = QApi(token=token, phone=phone)
 
@@ -96,9 +99,9 @@ elif text == T:
 	
 	time.sleep(5)
 
-	token=input(colored('hack modules>>', 'red' + 'set token: ', 'blue'))
+	token=input(colored('[hack modules]>>', 'red') + colored('set token: ', 'blue'))
 
-	phone=input(colored('hack modules>>', 'red' + 'set phone hack: ', 'blue'));
+	phone=input(colored('[hack modules]>>', 'red') + colored('set phone hack: ', 'blue'));
 
 	api = QApi(token=token, phone=phone)
 
@@ -106,9 +109,9 @@ elif text == T:
 
 	print(api.balance)
 	
-	your_phone=int(input(colored('your phone: ', 'red')))
+	your_phone=int(input(colored('[hack modules]>>', 'red') + colored('your phone: ', 'blue')))
 	
-	money=int(input(colored('hack money: ', 'red')))
+	money=int(input(colored('[hack modules]>>', 'red') + colored('hack money: ', 'blue')))
 	
 	api.pay(account=your_phone, amount=money, comment='сорри бро, что спиздил твои бабки')
 
