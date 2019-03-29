@@ -66,7 +66,7 @@ W ="help"
 M ="use modules qiwi/hacker"
 
 if text == M:
-	os.system("cd ../home/CyberFox/modules && python3 qiwimodules.py")
+	os.system("cd ../CyberFox/modules && python3 qiwimodules.py")
 if text == W:
 	
 	action = input(colored("Хотите связаться с разработчиком? Да/Нет ", 'green'))
