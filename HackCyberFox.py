@@ -11,9 +11,9 @@ import webbrowser
 print(colored("check new version", 'green'))
 time.sleep(5)
 os.system("mkdir update_check")
-os.system("cd $HOME/CyberFox/update_check && wget https://raw.githubusercontent.com/DarkGa/CyberFox/master/ver.txt")
-update = filecmp.cmp('../CyberFox/ver.txt', '../CyberFox/update_check/ver.txt')
-os.system("cd $HOME && cd CyberFox")
+os.system("cd ../home/CyberFox/update_check && wget https://raw.githubusercontent.com/DarkGa/CyberFox/master/ver.txt")
+update = filecmp.cmp('../home/CyberFox/ver.txt', '../home/CyberFox/update_check/ver.txt')
+os.system("cd ../home && cd CyberFox")
 os.system("rm -rf update_check")
 os.system("clear")
 print(colored("check new version", 'blue'))
@@ -25,9 +25,9 @@ if update == False:
 	os.system("clear")
 	print(colored("detect new version!", 'blue'))
 	time.sleep(3)
-	os.system("cp update.py $HOME")
+	os.system("cp update.py ../home")
 	
-	os.system("cd $HOME && python3 update.py")
+	os.system("cd ../home && python3 update.py")
 	
 	print("run CyberFox!")
 	time.sleep(3)
@@ -66,7 +66,7 @@ W ="help"
 M ="use modules qiwi/hacker"
 
 if text == M:
-	os.system("cd $HOME/CyberFox/modules && python3 qiwimodules.py")
+	os.system("cd ../home/CyberFox/modules && python3 qiwimodules.py")
 if text == W:
 	
 	action = input(colored("Хотите связаться с разработчиком? Да/Нет ", 'green'))
