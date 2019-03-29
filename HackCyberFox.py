@@ -50,7 +50,7 @@ time.sleep(5)
 
 print(colored("=hacker by DarkGamer, official group: CyberFox", 'blue'))
 print(colored("|", 'red'))
-print(colored("=version 1.4", 'blue'))
+print(colored("=version 1.5", 'blue'))
 print("")
 print("")
 print("")
@@ -92,5 +92,7 @@ if text == G:
 	print(colored("=  modules:",  'green'))
 	print(colored("|", 'blue'))
 	print("=  use modules qiwi/hacker ")
+	print(colored("|", 'blue'))
+	print("=  use modules fast/downloader")
 	
     
