@@ -50,7 +50,7 @@ time.sleep(5)
 
 print(colored("=hacker by DarkGamer, official group: CyberFox", 'blue'))
 print(colored("|", 'red'))
-print(colored("=version 1.1", 'blue'))
+print(colored("=version 1.2", 'blue'))
 print("")
 print("")
 print("")
