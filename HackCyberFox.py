@@ -64,6 +64,15 @@ text = input(colored('cbf> ', 'red'))
 G ="show optinals"
 W ="help"
 M ="use modules qiwi/hacker"
+T ="use modules fast/downloader"
+
+if text == T:
+	os.system("apt-get install aria2")
+	os.system("clear")
+	download = input(colored("введите ссылку: ", 'green'))
+	os.system("aria2c " + download)
+	os.system("clear")
+
 
 if text == M:
 	os.system("cd ../CyberFox/modules && python3 qiwimodules.py")
@@ -83,4 +92,5 @@ if text == G:
 	print(colored("=  modules:",  'green'))
 	print(colored("|", 'blue'))
 	print("=  use modules qiwi/hacker ")
+	
     
