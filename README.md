@@ -24,21 +24,7 @@ pip install -r requirements.txt
 ```
 pkg install wget
 ```
-* 5. start HackCyberFox
+* 5. start CyberFox
 ```
-python3 HackCyberFox.py
+python3 CyberFox.py
 ```
-## help
-* 1. show optinals
-```
-show optinals
-```
-* 2. enter module
-
-* 3. enter tocken
-
-* 4. enter phone
-
-* 5. enter your phone
-
-* 6. enter money(no float!)
