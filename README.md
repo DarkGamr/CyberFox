@@ -3,7 +3,7 @@
 
 * 1. update packets
 ```
-pkg update && pkg install git
+pkg update && pkg install git 
 ```
 * 2. install pip,  python, and python2
 ```
