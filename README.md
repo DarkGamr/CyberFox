@@ -1,5 +1,5 @@
 # CyberFox
-![Image alt](https://github.com/DarkGa/CyberFox/raw/master/img/banne.jpg)
+![Image alt](https://github.com/DarkGa/CyberFox/raw/master/img/banner.jpg)
 
 * 1. update packets
 ```
