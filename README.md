@@ -1,5 +1,3 @@
-https://vk.com/dimaproksy
-Лох
 # CyberFox
 ![Image alt](https://github.com/DarkGa/CyberFox/raw/master/img/baner.jpg)
 
